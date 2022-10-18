@@ -3,6 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    /* outline: 1px solid grey; */
+}
 html,
 body {
     height: 100%;
