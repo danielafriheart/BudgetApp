@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-* {
-    outline: 1px solid silver;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 html,
 body {
@@ -12,8 +12,3 @@ body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-
-/* Tailwind */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
